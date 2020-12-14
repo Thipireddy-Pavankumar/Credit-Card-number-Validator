@@ -1,4 +1,4 @@
-card_no = list(input("enter card no."))
+card_no = list(input("enter card no.").strip())
 #check if no. of digits is 16
 if len(card_no) == 16:
     #removing last digit
